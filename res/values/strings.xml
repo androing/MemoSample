@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MemoSample!</string>
+    <string name="app_name">MemoSample</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_alldel">All delete</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="menu_delete">Delete</string>
+    
+    <string name="title_memo">Memo content</string>
+    <string name="memo_edit">Edit memo</string>
+    <string name="type_private">Private</string>
+    <string name="type_job">Job</string>
+    <string name="memo_warning">Please input a memo</string>
+
+    <string name="confirm_message">Confirm</string>
+    <string name="all_delete_confirm">Do you delete all memo?</string>
+</resources>

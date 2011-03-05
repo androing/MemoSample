@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">メモサンプル</string>
+    <string name="menu_add">追加</string>
+    <string name="menu_alldel">全て削除</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_cancel">破棄</string>
+    <string name="menu_delete">削除</string>
+
+    <string name="title_memo">メモ内容</string>
+    <string name="memo_edit">メモ編集</string>
+    <string name="type_private">プライベート</string>
+    <string name="type_job">仕事</string>
+    <string name="memo_warning">メモを入力して下さい</string>
+    
+    <string name="confirm_message">確認</string>
+    <string name="all_delete_confirm">全て削除しますか？</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/title_memo"
+	/>
+	<EditText
+		android:id="@+id/memo_edit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="top|left"
+		android:inputType="text|textMultiLine"
+		android:lines="10"
+	/>
+	<RadioGroup
+		android:id="@+id/type_group"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<RadioButton
+			android:id="@+id/type_private"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/type_private" />
+		<RadioButton
+			android:id="@+id/type_job"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/type_job" />
+	</RadioGroup>
+
+</LinearLayout>
